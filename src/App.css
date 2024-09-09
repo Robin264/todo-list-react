@@ -1,0 +1,78 @@
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.App{
+  text-align: center;
+  margin-top: 20px;
+}
+
+table{
+  width: 60%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th, td{
+  padding: 12px 20px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th{
+  background-color: #f4f4f4;
+}
+
+input[type="text"]{
+  padding: 8px;
+  border-radius: 8px;
+}
+
+button{
+  padding: 8px 12px;
+  margin-left: 8px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.add-task{
+  background: rgb(180, 180, 213);
+}
+
+.add-task:hover{
+  background: rgb(91, 91, 181);
+  color: #fff;
+}
+
+.task-actions{
+  display: flex;
+  gap: 8px;
+}
+
+.save-task{
+  background: rgb(164, 164, 150);
+}
+
+.save-task:hover{
+  background: rgb(122, 122, 87);
+  color: #fff;
+}
+
+.edit-task{
+  background: rgb(139, 167, 101);
+}
+
+.edit-task:hover{
+  background: rgb(109, 152, 48);
+  color: #fff;
+}
+
+.delete-task{
+  background: rgb(164, 94, 94);
+}
+
+.delete-task:hover{
+  background: rgb(182, 111, 111);
+  color: #fff;
+}
